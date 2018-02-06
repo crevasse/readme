@@ -652,3 +652,6 @@ hostname = *google.com
 ca-p12 = MIIJtQ.........
 ca-passphrase = password
 ```
+## License
+
+MIT
