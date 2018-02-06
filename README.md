@@ -777,6 +777,10 @@ ca-passphrase = password
 [配置补丁](#crevasse补丁文件示例)目前需要手动制作,后续会加入CLI命令行,通过CLI交互式制作<br>
 [配置补丁](#crevasse补丁文件示例)的格式与[crevasse配置文件](#crevasse配置文件示例)相同
 
+## 支持帮助
+* 如有问题请联系 `burpsuite[at]mail.ru`
+* 社交媒体: `Twitter@OAuth4`
+
 ## License
 
 MIT
