@@ -18,15 +18,15 @@
 * rawData: `http://api.injected.me/rules/{base64数据}/{保存名称}`
 
 ## 规则转换
-* `crevasse/converter`提供 [CLI命令行]() 与 [HTTP]() 两种模式<br>
-* `crevasse/converter`会将 [conf标准配置文件]() 转换为 [crevasse配置文件]()<br>
+* `crevasse/converter`提供 [CLI命令行](#) 与 [HTTP](#) 两种模式<br>
+* `crevasse/converter`会将 [conf标准配置文件](#conf标准配置文件) 转换为 [crevasse配置文件](#crevasse配置文件)<br>
 * CLI命令行模式 : 参考[英文版说明](https://github.com/crevasse/converter)<br>
 * HTTP模式 : `http://api.injected.me/convert/{conf标准配置文件url}`<br>
 * HTTP模式仅支持包含`Content-Length`响应标头的文件,配置文件需小于`1MB`<br>
 
 ## 配置文件
-[crevasse配置文件]()为`crevasse/crevasse`自动生成的配置文件,无需手动修改<br>
-`crevasse/crevasse`会读取[conf标准配置文件]()进行自动匹配生成转换结果<br>
+[crevasse配置文件](crevasse配置文件)为`crevasse/crevasse`自动生成的配置文件,无需手动修改<br>
+`crevasse/crevasse`会读取[conf标准配置文件](conf标准配置文件)进行自动匹配生成转换结果<br>
 `crevasse/crevasse`目前仅支持`Surge`标准格式配置文件的读取<br>
 `crevasse/crevasse`生成结果为`crevasse(hash-json)`格式,每条都是独一无二的!
 
