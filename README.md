@@ -779,7 +779,7 @@ ca-passphrase = password
 
 ## 支持帮助
 * 如有问题请联系 `burpsuite[at]mail.ru`
-* 社交媒体: [Twitter](https://twitter.com/OAuth4) [Slack](https://join.slack.com/t/crevasse/shared_invite/enQtMzEwMDYzMzQxMDU2LTU2NjcyZjA1MmVkNzVhYWMwZDZjNjkyM2E2MWVmYjBkOWQyODk0MDBhMjQzN2ZhNmYyNjNjZDcyMTA2Mzk5NmM)
+* 社交媒体: [Twitter](https://twitter.com/OAuth4) [Slack](https://join.slack.com/t/crevasse/shared_invite/enQtMzEwMDYzMzQxMDU2LTU2NjcyZjA1MmVkNzVhYWMwZDZjNjkyM2E2MWVmYjBkOWQyODk0MDBhMjQzN2ZhNmYyNjNjZDcyMTA2Mzk5NmM) [Discord](https://discord.gg/r8zDbW)
 
 ## License
 
