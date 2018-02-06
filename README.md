@@ -800,7 +800,7 @@ ca-passphrase = password
       + strict -> 强制更新
 & enable_type -> 启用类型
       + label_type -> 需要使用的大项类型
-      + rules_type ->需要使用的规则类型
+      + rules_type -> 需要使用的规则类型
 & output_format -> 输出格式(仅支持surge)
 & convert_info -> 转换的规则文件地址(>1MB)
 & convert_patch -> 规则补丁文件地址(>1MB)
