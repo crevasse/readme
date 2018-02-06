@@ -24,6 +24,23 @@
 * HTTP模式 : `http://api.injected.me/convert/{conf标准配置文件url}`<br>
 * HTTP模式仅支持包含`Content-Length`响应标头的文件,配置文件需小于`1MB`<br>
 
+## 支持类型
+```text
+规则类(小写): DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|IP-CIDR|IP-CIDR6
+规则类(默认): USER-AGENT|PROCESS-NAME|URL-REGEX
+重写类(网址): header|reject|302|307
+重写类(标头): header-add|header-del|header-replace
+地址类(地址): skip-proxy|bypass-tun|dns-server
+一般类(杂项): loglevel|bypass-system|ipv6|interface|port|socks-interface
+一般类(杂项): external-controller-access|use-default-policy-if-wifi-not-primary
+一般类(杂项): socks-port|allow-wifi-access
+复制类(杂项): hide-apple-request|hide-crashlytics-request|use-keyword-filter
+复制类(杂项): keyword-filter
+解密类(解密): enable|ca-passphrase|ca-p12|hostname|tcp-connection
+其他类(其他): GEOIP|FINAL|host|ssid_setting
+不支持(暂时): keystore(Surge3)|部分host类型(Surge1~2)
+```
+
 ## 配置文件
 [crevasse配置文件](crevasse配置文件)为`crevasse/crevasse`自动生成的配置文件,无需手动修改<br>
 `crevasse/crevasse`会读取[conf标准配置文件](conf标准配置文件)进行自动匹配生成转换结果<br>
