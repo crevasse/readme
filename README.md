@@ -20,7 +20,7 @@
 * 远程配置文件示例: `http://api.injected.me/rules/http://7xpphx.com1.z0.glb.clouddn.com/userinfo.json/surge`
 
 ## 规则转换
-* `crevasse/converter`提供 [CLI命令行](#) 与 [HTTP](#) 两种模式<br>
+* `crevasse/converter`提供 [CLI命令行](https://github.com/crevasse/converter) 与 [HTTP](#) 两种模式<br>
 * `crevasse/converter`会将 [conf标准配置文件](#conf标准配置文件示例) 转换为 [crevasse配置文件](#crevasse配置文件示例)<br>
 * 由于`Github`似乎出现了一些问题,导致无法`release`上传`blob`附件,已添加至build文件夹<bar>
 * CLI命令行模式 : 参考[英文版说明](https://github.com/crevasse/converter)<br>
