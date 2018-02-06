@@ -789,12 +789,12 @@ ca-passphrase = password
             * name -> 代理组名称(除英文外均需要unicode编码)
             @ default -> (对于ssid组需要填写)
             @ cellular -> (对于ssid组需要填写)
-            * list -> 包含服务器名称
+            * list -> 服务器名称
             * option -> 选项(可选)
 & rules_policy -> 规则策略
       @ policy_name -> replace_name
 & managed_info -> 自动更新选项
-      + interval -> 间隔
+      + interval -> 间隔时间
       + strict -> 强制更新
 & enable_type -> 启用类型
       + label_type -> 需要使用的大项类型
