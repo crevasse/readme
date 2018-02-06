@@ -772,6 +772,39 @@ hostname = *google.com
 ca-p12 = MIIJtQ.........
 ca-passphrase = password
 ```
+## 配置说明
+``` text
+& proxy_info -> 代理信息
+      + server_list -> 服务器信息
+            * type -> 服务器类型(http/https/custom/socks5/socks5-tls)
+            * name -> 代理名称(除英文外均需要unicode编码)
+            * server -> 地址(ip/domain)
+            * port -> 端口
+            * method -> 加密方式
+            * password -> 密码
+            * module -> 模块状态(enable/disable)
+            * option -> 选项(可选)
+      + group_list -> 代理组信息
+            * type -> 代理组类型(url-test/select/ssid/fallback)
+            * name -> 代理组名称(除英文外均需要unicode编码)
+            @ default -> (对于ssid组需要填写)
+            @ cellular -> (对于ssid组需要填写)
+            * list -> 包含服务器名称
+            * option -> 选项(可选)
+& rules_policy -> 规则策略
+      @ policy_name -> replace_name
+& managed_info -> 自动更新选项
+      + interval -> 间隔
+      + strict -> 强制更新
+& enable_type -> 启用类型
+      + label_type -> 需要使用的大项类型
+      + rules_type ->需要使用的规则类型
+& output_format -> 输出格式(仅支持Surge)
+& convert_info -> 转换的规则文件地址(>1MB)
+& convert_patch -> 规则补丁文件地址(>1MB)
+& module_url -> 模块地址
+```
+
 ## 配置补丁
 [配置补丁](#crevasse补丁文件示例)也就是[crevasse配置文件](#crevasse配置文件示例)里的`convert_patch`条目<br>
 `crevasse`会自动下载`convert_patch`文件并以递归方式进行合并<br>
