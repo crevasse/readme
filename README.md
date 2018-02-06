@@ -772,10 +772,10 @@ ca-p12 = MIIJtQ.........
 ca-passphrase = password
 ```
 ## 配置补丁
-配置补丁也就是[crevasse配置文件](#crevasse配置文件示例)里的`convert_patch`条目<br>
+[配置补丁](#crevasse补丁文件示例)也就是[crevasse配置文件](#crevasse配置文件示例)里的`convert_patch`条目<br>
 `crevasse`会自动下载`convert_patch`文件并以递归方式进行合并<br>
-目前配置补丁需要手动制作,后续会加入CLI命令行内,<br>
-配置补丁的格式与[crevasse配置文件](#crevasse配置文件示例)相同
+[配置补丁](#crevasse补丁文件示例)目前需要手动制作,后续会加入CLI命令行,通过CLI交互式制作<br>
+[配置补丁](#crevasse补丁文件示例)的格式与[crevasse配置文件](#crevasse配置文件示例)相同
 
 ## License
 
