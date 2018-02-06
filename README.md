@@ -779,7 +779,7 @@ ca-passphrase = password
 
 ## 支持帮助
 * 如有问题请联系 `burpsuite[at]mail.ru`
-* 社交媒体: `Twitter@OAuth4`
+* 社交媒体: `Twitter @OAuth4`
 
 ## License
 
