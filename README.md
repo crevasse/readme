@@ -246,8 +246,8 @@
     ]
   },
   "output_format":"surge",
-  "convert_info":"https://raw.githubusercontent.com/sparaxis/sparaxis/master/example/convert.json",
-  "convert_patch":"https://raw.githubusercontent.com/sparaxis/sparaxis/master/example/patch.json",
+  "convert_info":"https://raw.githubusercontent.com/crevasse/readme/master/example/convert.json",
+  "convert_patch":"https://raw.githubusercontent.com/crevasse/readme/master/example/patch.json",
   "module_url":"https://google.com/module"
 }
 ```
