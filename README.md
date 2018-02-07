@@ -813,7 +813,7 @@ ca-passphrase = password
 [配置补丁](#crevasse补丁文件示例)也就是[crevasse配置文件](#crevasse配置文件示例)里的`convert_patch`条目<br>
 `crevasse`会自动下载`convert_patch`文件并以递归方式进行合并<br>
 [配置补丁](#crevasse补丁文件示例)目前需要手动制作,后续会加入CLI命令行,通过CLI交互式制作<br>
-[配置补丁](#crevasse补丁文件示例)的格式与[crevasse配置文件](#crevasse配置文件示例)相同
+[配置补丁](#crevasse补丁文件示例)与[crevasse配置文件](#crevasse配置文件示例)的格式相同
 
 ## 支持帮助
 * 如有问题请联系 `burpsuite[at]mail.ru`
