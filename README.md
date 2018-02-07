@@ -50,7 +50,7 @@
 [crevasse配置文件](crevasse配置文件示例)为`crevasse/crevasse`自动生成的配置文件,无需手动修改<br>
 `crevasse/crevasse`会读取[conf标准配置文件](conf标准配置文件示例)进行自动匹配生成转换结果<br>
 `crevasse/crevasse`目前仅支持`Surge`标准格式配置文件的读取<br>
-`crevasse/crevasse`转换结果为`crevasse(hash-json)`格式,确保每条都是唯一的!
+`crevasse/crevasse`转换结果为`crevasse(hash-json)`格式,确保每条不会重复!
 
 ### 用户数据配置文件示例
 ``` text
