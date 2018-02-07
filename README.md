@@ -18,7 +18,7 @@
 * [CLI命令行](https://github.com/crevasse/converter): 将在近期支持本地生成方式,无需通过网址导入!<br>
 * 远程配置文件: `http://api.injected.me/rules/{用户数据配置文件url}/{保存名称}`<br>
 * rawData: `http://api.injected.me/rules/{base64用户数据配置文件}/{保存名称}`<br>
-* 远程配置文件示例: `http://api.injected.me/rules/http://7xpphx.com1.z0.glb.clouddn.com/userinfo.json/surge`
+* 远程配置文件示例: `http://api.injected.me/rules/http://p3re7f39t.bkt.gdipper.com/userinfo.json/surge`
 
 ## 规则转换
 * `crevasse/converter`提供 [CLI命令行](https://github.com/crevasse/converter) 与 [HTTP](#) 两种模式<br>
