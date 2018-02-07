@@ -15,6 +15,7 @@
 如需使用,则需要提供一个[conf标准配置文件](#conf标准配置文件示例)以及[用户数据配置文件](#用户数据配置文件示例)<br>
 您可以选择 `远程配置文件` 或 `rawData` 方式<br>
 注意: `rawData`有字数限制,超过一定字数将无法成功导入!
+* [CLI命令行](https://github.com/crevasse/converter): 将在近期支持本地生成方式,无需通过网址导入!<br>
 * 远程配置文件: `http://api.injected.me/rules/{用户数据配置文件url}/{保存名称}`<br>
 * rawData: `http://api.injected.me/rules/{base64用户数据配置文件}/{保存名称}`<br>
 * 远程配置文件示例: `http://api.injected.me/rules/http://7xpphx.com1.z0.glb.clouddn.com/userinfo.json/surge`
