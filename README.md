@@ -43,7 +43,7 @@
 复制类(杂项): keyword-filter
 解密类(解密): enable|ca-passphrase|ca-p12|hostname|tcp-connection
 其他类(其他): GEOIP|FINAL|host|ssid_setting
-不支持(暂时): keystore(Surge3)|部分host类型(Surge1~2)
+不支持(暂时): keystore(Surge3)|部分host类型(Surge1)|MapLocal(Surge2)
 ```
 
 ## 配置文件
