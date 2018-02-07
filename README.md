@@ -474,13 +474,12 @@
     },
     "build": {
         "convert_ver": "0.1.0",
-        "convert_time": 1517803056
+        "convert_time": 1517972495
     }
 }
 ```
 ### crevasse补丁文件示例
 ``` text
-
 {
     "general": {
         "f4abffc6636fd17ec6f461d949cbae94bf9ca47a": {
@@ -535,7 +534,7 @@
         }
     },
     "final": {
-        "d799bae6088a90139b415fccb011d540531df83b": {
+        "184e66f48794012a75e0fbfe0d7a5d2699dfe976": {
             "type": "FINAL",
             "policy": "group_f",
             "option": null
