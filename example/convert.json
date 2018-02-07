@@ -1,3 +1,4 @@
+
 {
     "label": {
         "general": "[General]",
@@ -85,6 +86,36 @@
             "policy": "DIRECT",
             "option": null
         },
+        "759730a97e4373f3a0ee12805db065e3a4a649a5": {
+            "type": "DOMAIN-KEYWORD",
+            "value": "google",
+            "policy": "ProxyHTTP",
+            "option": null
+        },
+        "cbe648909034c0624c205fe219d3fbd10052c715": {
+            "type": "DOMAIN-KEYWORD",
+            "value": "facebook",
+            "policy": "SelectGroup",
+            "option": null
+        },
+        "f2382cccfbc0084c09ec5d8436af1a5f7618380b": {
+            "type": "DOMAIN-KEYWORD",
+            "value": "blogspot",
+            "policy": "AutoTestGroup",
+            "option": null
+        },
+        "d5244a331aad290f924ed5ed8c070d65d2e0633e": {
+            "type": "DOMAIN-KEYWORD",
+            "value": "youtube",
+            "policy": "SSIDGroup",
+            "option": null
+        },
+        "de740f90f540b99783f0d940f7130377691f119a": {
+            "type": "DOMAIN-SUFFIX",
+            "value": "apple.com",
+            "policy": "ProxyHTTPS",
+            "option": null
+        },
         "0bcef12a28cebdbad24d70c065d62893da3e5126": {
             "type": "DOMAIN-SUFFIX",
             "value": "ad.com",
@@ -125,9 +156,9 @@
         }
     },
     "final": {
-        "d799bae6088a90139b415fccb011d540531df83b": {
+        "184e66f48794012a75e0fbfe0d7a5d2699dfe976": {
             "type": "FINAL",
-            "policy": "Proxy",
+            "policy": "ProxyHTTP",
             "option": null
         }
     },
@@ -189,6 +220,6 @@
     },
     "build": {
         "convert_ver": "0.1.0",
-        "convert_time": 1517739118
+        "convert_time": 1517972495
     }
 }
