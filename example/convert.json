@@ -1,0 +1,194 @@
+{
+    "label": {
+        "general": "[General]",
+        "proxy": "[Proxy]",
+        "proxy_group": "[Proxy Group]",
+        "rule": "[Rule]",
+        "host": "[Host]",
+        "url_rewrite": "[URL Rewrite]",
+        "ssid_setting": "[SSID Setting]",
+        "mitm": "[MITM]"
+    },
+    "general": {
+        "f4abffc6636fd17ec6f461d949cbae94bf9ca47a": {
+            "name": "loglevel",
+            "value": "notify"
+        },
+        "78f07ebebb30881512d74dd033e0e68d2d3116fc": {
+            "name": "external-controller-access",
+            "value": "apassword@127.0.0.1:8888"
+        },
+        "d44af3241107655f49971036eb9da5ad3728cdf4": {
+            "name": "bypass-system",
+            "value": "true"
+        },
+        "138f9a7b2427c2213b26486e3f27ed70c1e8435e": {
+            "name": "ipv6",
+            "value": "false"
+        },
+        "5ea2d81a89e0cdc89baf7cd1ff38cdfefa33ba78": {
+            "name": "interface",
+            "value": "0.0.0.0"
+        },
+        "062d8a9dec0fa507d19f3b3481b4980ca139455f": {
+            "name": "port",
+            "value": "6152"
+        },
+        "0e1620bacb977a0c4437851b8610ec2091d02450": {
+            "name": "socks-interface",
+            "value": "0.0.0.0"
+        },
+        "cafdc3e64c3ee2115f992349043d3c380805f0dc": {
+            "name": "socks-port",
+            "value": "6153"
+        }
+    },
+    "skip-proxy": {
+        "list": {
+            "4b84b15bff6ee5796152495a230e45e3d7e947d9": "127.0.0.1",
+            "ab55803d42d270e688c6d82e3fc0da4bf3abef01": "192.168.0.0\/16",
+            "10174f2d4dc0b1d847982eaca8701ba50620fb01": "10.0.0.0\/8",
+            "33a365d6b210443edc95a6eaf9b9e5d38d2e8f65": "172.16.0.0\/12",
+            "47f84edecf6089c56dd1e90fa4ef7b855a495ada": "100.64.0.0\/10",
+            "334389048b872a533002b34d73f8c29fd09efc50": "localhost",
+            "27aee6329e499402c073d10324a3974ccd48dc3a": "*.local"
+        }
+    },
+    "dns-server": {
+        "list": {
+            "53a636befcd6e3049a0eae5fbc44016512229221": "8.8.8.8",
+            "2d2878d28198800cfc5ed8914aece068852d094e": "8.8.4.4"
+        }
+    },
+    "rules": {
+        "c4ffa61dba27eb9b001d0b73d1c99dd79f502b33": {
+            "type": "DOMAIN-SUFFIX",
+            "value": "appldnld.apple.com",
+            "policy": "DIRECT",
+            "option": null
+        },
+        "b45a37ca5745f5a898ffc92f935580709dff7b80": {
+            "type": "DOMAIN-SUFFIX",
+            "value": "adcdownload.apple.com",
+            "policy": "DIRECT",
+            "option": null
+        },
+        "dda7f51cc6fdb1b61b4dae3c371778de14a3a015": {
+            "type": "DOMAIN-SUFFIX",
+            "value": "swcdn.apple.com",
+            "policy": "DIRECT",
+            "option": null
+        },
+        "c3c88718cf665920664df79980adeb1ffa7f6828": {
+            "type": "DOMAIN-SUFFIX",
+            "value": "phobos.apple.com",
+            "policy": "DIRECT",
+            "option": null
+        },
+        "0bcef12a28cebdbad24d70c065d62893da3e5126": {
+            "type": "DOMAIN-SUFFIX",
+            "value": "ad.com",
+            "policy": "REJECT",
+            "option": null
+        },
+        "ab55803d42d270e688c6d82e3fc0da4bf3abef01": {
+            "type": "IP-CIDR",
+            "value": "192.168.0.0\/16",
+            "policy": "DIRECT",
+            "option": null
+        },
+        "10174f2d4dc0b1d847982eaca8701ba50620fb01": {
+            "type": "IP-CIDR",
+            "value": "10.0.0.0\/8",
+            "policy": "DIRECT",
+            "option": null
+        },
+        "33a365d6b210443edc95a6eaf9b9e5d38d2e8f65": {
+            "type": "IP-CIDR",
+            "value": "172.16.0.0\/12",
+            "policy": "DIRECT",
+            "option": null
+        },
+        "5736bac7c74b884f535783d02175a8989603b741": {
+            "type": "IP-CIDR",
+            "value": "127.0.0.0\/8",
+            "policy": "DIRECT",
+            "option": null
+        }
+    },
+    "geoip": {
+        "b0bc9abd90e2f7b3bfd695191e2d0034bb1b2f52": {
+            "type": "GEOIP",
+            "region": "CN",
+            "policy": "DIRECT",
+            "option": null
+        }
+    },
+    "final": {
+        "d799bae6088a90139b415fccb011d540531df83b": {
+            "type": "FINAL",
+            "policy": "Proxy",
+            "option": null
+        }
+    },
+    "host": {
+        "3cc1224dcdb34dc16b24b24843714b06cbc30d4f": {
+            "type": "host",
+            "host": "abc.com",
+            "redirect": "1.2.3.4"
+        },
+        "6e4f2b70355c0aa79d513dfa0baa6275a3a7f0f8": {
+            "type": "host",
+            "host": "*.dev",
+            "redirect": "6.7.8.9"
+        },
+        "cf934d97a8012ba1c2d354d6cd39e77535fd0fb9": {
+            "type": "host",
+            "host": "foo.com",
+            "redirect": "bar.com"
+        },
+        "91b6494ac79837919d80c01c89c2e70b4a5479a2": {
+            "type": "host",
+            "host": "bar.com",
+            "redirect": "server:8.8.8.8"
+        },
+        "c60266a8adad2f8ee67d793b4fd3fd0ffd73cc61": {
+            "type": "host",
+            "host": "computer",
+            "redirect": "server:system"
+        }
+    },
+    "url_rewrite": {
+        "5043ad9c42980d6da0aa716a7d745fce549834b9": {
+            "type": "url_rewrite",
+            "pattern": "^http:\/\/www.google.cn",
+            "replace": "http:\/\/www.google.com",
+            "policy": "header"
+        },
+        "9626c08481a6a594d2be60a2300c7b4cdf2967f5": {
+            "type": "url_rewrite",
+            "pattern": "^http:\/\/yachen.com",
+            "replace": "https:\/\/yach.me",
+            "policy": "302"
+        }
+    },
+    "ssid_setting": {
+        "1b8d2e145410fda75848add722fec749220c4809": {
+            "type": "ssid_setting",
+            "ssid": "\"SSID Here\"",
+            "suspend": "true"
+        }
+    },
+    "mitm": {
+        "enable": "true",
+        "hostname": {
+            "fd29ad9f643f60dcded9b2ccb57c5659a3c7816d": "*google.com"
+        },
+        "ca-p12": "MIIJtQ.........",
+        "ca-passphrase": "password"
+    },
+    "build": {
+        "convert_ver": "0.1.0",
+        "convert_time": 1517739118
+    }
+}
