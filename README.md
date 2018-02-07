@@ -53,7 +53,7 @@
 `crevasse/crevasse`转换结果为`crevasse(hash-json)`格式,确保每条不会重复!
 
 ### 用户数据配置文件示例
-``` text
+```text
 {
   "proxy_info":{
     "server_list":[
@@ -112,7 +112,7 @@
       },
       {
         "type":"socks5",
-        "name":"server_g",
+        "name":"server_f",
         "server":"10.0.0.1",
         "port":"8081",
         "username":"username",
@@ -120,7 +120,7 @@
       },
       {
         "type":"socks5-tls",
-        "name":"server_f",
+        "name":"server_g",
         "server":"10.0.0.1",
         "port":"8081",
         "username":"username",
@@ -133,7 +133,7 @@
     "group_list":[
       {
         "type":"ssid",
-        "name":"Group",
+        "name":"group_a",
         "default":"server_e",
         "cellular":"server_a",
         "list":{
@@ -143,7 +143,7 @@
       },
       {
         "type":"select",
-        "name":"group_a",
+        "name":"group_b",
         "list":[
           "server_a",
           "server_b",
@@ -155,7 +155,7 @@
       },
       {
         "type":"select",
-        "name":"group_b",
+        "name":"group_c",
         "list":[
           "server_a",
           "server_b",
@@ -166,7 +166,7 @@
       },
       {
         "type":"select",
-        "name":"group_c",
+        "name":"group_d",
         "list":[
           "server_a",
           "server_b",
@@ -176,7 +176,7 @@
       },
       {
         "type":"select",
-        "name":"group_d",
+        "name":"group_e",
         "list":[
           "server_a",
           "server_b",
@@ -185,7 +185,7 @@
       },
       {
         "type":"select",
-        "name":"group_e",
+        "name":"group_f",
         "list":[
           "server_a",
           "server_b"
@@ -193,7 +193,7 @@
       },
       {
         "type":"url-test",
-        "name":"group_f",
+        "name":"group_g",
         "list":[
           "server_a",
           "server_b",
@@ -208,11 +208,31 @@
           "tolerance":200,
           "timeout":5
         }
+      },
+      {
+        "type":"fallback",
+        "name":"group_h",
+        "list":[
+          "server_a",
+          "server_b",
+          "server_c",
+          "server_d",
+          "server_e",
+          "server_f"
+        ],
+        "option":{
+          "url":"http://www.gstatic.com/generate_204"
+        }
       }
     ]
   },
   "rules_policy":{
-    "Proxy":"group_a"
+    "Proxy":"group_a",
+    "ProxyHTTP":"group_b",
+    "SelectGroup":"group_c",
+    "AutoTestGroup":"group_e",
+    "SSIDGroup":"group_g",
+    "ProxyHTTPS":"group_h"
   },
   "managed_info":{
     "interval":86400,
@@ -248,11 +268,11 @@
   "output_format":"surge",
   "convert_info":"https://raw.githubusercontent.com/crevasse/readme/master/example/convert.json",
   "convert_patch":"https://raw.githubusercontent.com/crevasse/readme/master/example/patch.json",
-  "module_url":"https://google.com/module"
+  "module_url":"https://raw.githubusercontent.com/crevasse/readme/master/example/module"
 }
 ```
 ### crevasse配置文件示例
-``` text
+```text
 {
     "label": {
         "general": "[General]",
@@ -479,7 +499,7 @@
 }
 ```
 ### crevasse补丁文件示例
-``` text
+```text
 {
     "general": {
         "f4abffc6636fd17ec6f461d949cbae94bf9ca47a": {
@@ -597,7 +617,7 @@
 }
 ```
 ### conf标准配置文件示例
-``` text
+```text
 # Surge Config Example
 # Version 2.0
 
@@ -776,7 +796,7 @@ ca-p12 = MIIJtQ.........
 ca-passphrase = password
 ```
 ## 配置说明
-``` text
+```text
 & proxy_info -> 代理信息
       + server_list -> 服务器信息
             * type -> 服务器类型(http/https/custom/socks5/socks5-tls)
